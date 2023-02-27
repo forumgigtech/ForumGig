@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ForumGig/static/css/main.de4c0324.css",
+    "main.js": "/ForumGig/static/js/main.19293376.js",
+    "static/js/787.3adc0b1d.chunk.js": "/ForumGig/static/js/787.3adc0b1d.chunk.js",
+    "static/media/logo.svg": "/ForumGig/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ForumGig/index.html",
+    "main.de4c0324.css.map": "/ForumGig/static/css/main.de4c0324.css.map",
+    "main.19293376.js.map": "/ForumGig/static/js/main.19293376.js.map",
+    "787.3adc0b1d.chunk.js.map": "/ForumGig/static/js/787.3adc0b1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de4c0324.css",
+    "static/js/main.19293376.js"
+  ]
+}
