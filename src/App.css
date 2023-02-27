@@ -1,38 +1,140 @@
-.App {
+body {
+  background-color: #5BBA6F;
+}
+
+button{
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
   text-align: center;
+  text-decoration: none;
+  background-color: #2A9134;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button:hover {
+  background-color: #054A29;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  background-color: transparent;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a{
+  color: #054A29;
+  text-decoration: none;
+}
+
+h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #054A29;
+}
+
+h3{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h5{
+  position: absolute;
+  top: 105%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.LoginInput{
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  color: #555;
+  background-color: white
+}
+
+.LoginButton[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  background-color: #054A29;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.LoginButton[type="submit"]:hover {
+  background-color: #2A9134;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.FreelancerRegister{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.EnterpriseRegister{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.RegisterDiv{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 sütun */
+  grid-template-rows: repeat(3, 1fr); /* 3 satır */
+  gap: 10px; /* elemanlar arası boşluk */
+  text-align: center;
+  justify-content: center;
+}
+
+.item {
+  background-color: none;
+  padding: 10px;
+}
+
+.CheckIcon {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
